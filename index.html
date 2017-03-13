@@ -15,7 +15,8 @@
   <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
 
   <form method="POST" action="https://formspree.io/shee0060@algonquinlive.com">
-    Personal details
+  <fieldset>
+    <legend>Personal details</legend>
     <div>
       <label for="name">Name</label>
       <input id="name" name="name">
@@ -31,23 +32,27 @@
     <div>
       <label for="subject">Physical fitness</label>
       <select id="subject" name="_subject">
-        <option>- Super-human</option>
-        <option>- Fit as a fiddle</option>
-        <option>- Not terribly strong</option>
-        <option>- A little couch-potato-y</option>
+        <option>Super-human</option>
+        <option>Fit as a fiddle</option>
+        <option>Not terribly strong</option>
+        <option>A little couch-potato-y</option>
       </select>
     </div>
     <div>
       <label for="address">Address</label>
       <textarea id="address"></textarea>
     </div>
-    Mission statement
-    <label for="message">Why do you want to go to Mars?</label>
-    <textarea id="message"></textarea>
-
+  </fieldset>
+  <fieldset>
+    <legend>Mission statement</legend>
+    <div>
+      <label for="message">Why do you want to go to Mars?</label>
+      <textarea id="message"></textarea>
+    </div>
     <button type="submit">Register for the trip!</button>
 
     Request to join the mission
+  </fieldset>
   </form>
 
 </body>
