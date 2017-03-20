@@ -17,10 +17,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-}
-
 .unit {
   padding: 1rem .5rem;
 }
