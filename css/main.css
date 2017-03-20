@@ -24,6 +24,7 @@ html {
 @media only screen and (min-width: 60em) {
 
   html {
+    color: #000;
     background-color: #f2f2f2;
   }
 
