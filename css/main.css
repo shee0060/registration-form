@@ -21,6 +21,10 @@ html {
   padding: 1rem .5rem;
 }
 
+h1 {
+  border-bottom: 1px solid #000;
+}
+
 @media only screen and (min-width: 60em) {
 
   html {
@@ -29,6 +33,7 @@ html {
   }
 
   section {
+    padding: 1em 0;
     background-color: #fff;
   }
 
